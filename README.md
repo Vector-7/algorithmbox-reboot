@@ -1,8 +1,13 @@
 # algorithmbox-reboot
 다시연습하는 알고리즘
 
-## Algorithm Basic
+## 특징
+* 알고리즘 구현: Haskell, C
+* 알고리즘 문제 풀기: Python
+* 직접만든 알고리즘: ALL
 
-## Algorithm Test
+## 알고리즘 개념
 
-## Custom Algorithm
+## 푼 문제 리스트
+
+## 직접만든 알고리즘
