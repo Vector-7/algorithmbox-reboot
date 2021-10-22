@@ -19,7 +19,7 @@ __binary_search(int* arr, int len, int e, int left, int right)
     if(left > right) return -1;
     else if(arr[mid] == e) return mid;
     else if(arr[mid] > e) return __binary_search(arr, len, e, left, mid - 1);
-    else if(arr[mid] < 3) return __binary_search(arr, len, e, mid + 1, right);
+    else if(arr[mid] < e) return __binary_search(arr, len, e, mid + 1, right);
     else return -1;
 }
 
