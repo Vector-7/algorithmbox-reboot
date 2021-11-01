@@ -7,5 +7,6 @@
 
 ## 푼 문제 리스트
 ![python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+* [[bakjoon]트리의 지름](solutions/bakjoon-1967.py)
 
 ## 직접만든 알고리즘
