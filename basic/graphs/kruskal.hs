@@ -9,32 +9,38 @@ makeUnionSet start end
     | otherwise     = M.insert start start (makeUnionSet (start + 1) end)
 
 findParentFromUnionSet :: (Ord a, Num a) => M.Map a a -> a -> a
+-- Find Top Parent Vertex
 findParentFromUnionSet unionSet v
     | v == parent   = v
     | otherwise     = findParentFromUnionSet unionSet parent
     where
         parent = (unionSet M.! v)
 
+-- Edge Member Functions
 __getStart    = head . tail
 __getEnd      = head . tail . tail
 __getWeight   = head
 
--- Kruskal Micro Function
 __kruskal :: (Ord a, Num a, Foldable t) => t [a] -> M.Map a a -> a
--- param: NumberOfVertex, edges, unionset
--- return: Value of the smallest
--- edges
--- [[start, end, weight]]
+-- Explain: Kruskal Micro Function
+-- param:   edges, unionSet
+-- return:  the smallest weight
+-- 
+-- Edge Info (before pre-process)
+-- [start, end, weight]
+-- Edge Info (after pre-process)
+-- [weight, start, end]
 __kruskal edges unionSet = (fst . (foldl' routineKruskal elements)) edges
     where
     elements = (0, unionSet)
     routineKruskal :: (Ord a, Num a) => (a, M.Map a a) -> [a] -> (a, M.Map a a)
-    -- param: (totalValue, unionSet), one edge
-    -- return: (totalValue, unionSet)
-    -- 싸이클인지 확인하고, totalWeight를 갱신한다.
+    -- explain: Kruskal Routine
+    -- param:   (totalValue, unionSet), one edge
+    -- return:  (totalValue, unionSet)
     routineKruskal kruskalElemnts edge
+        -- 싸이클이 생성되는 지 측정
         | (findParent start) == (findParent end)    = kruskalElemnts
-        | otherwise                                 = (totalWeight + weight, M.adjust (updateValue start) end unionSet)
+        | otherwise                                 = (totalWeight + weight, M.adjust (const start) end unionSet)
         where
             start       = __getStart    edge
             end         = __getEnd      edge
@@ -42,8 +48,6 @@ __kruskal edges unionSet = (fst . (foldl' routineKruskal elements)) edges
             totalWeight = fst kruskalElemnts
             unionSet    = snd kruskalElemnts
             findParent  = findParentFromUnionSet unionSet
-            updateValue :: Num a => a -> a -> a
-            updateValue n e = n
 
 -- Main Kruskal Function
 kruskal :: (Ord a, Num a) => a -> [[a]] -> a
@@ -62,6 +66,7 @@ kruskal nv edges
         -- 자리 체인지 => [start, end, weight] -> [weight, start, end]
 
 
+{-- TEST FUNCTIONS --}
 test :: (Ord a, Num a) => [a] -> [(a, [[a]])] -> [String]
 test (ans:anss) (t:ts)
     | anss == []    = [(checkResult ans (runKruskal t))]
