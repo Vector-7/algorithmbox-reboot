@@ -1,35 +1,65 @@
 import Data.List
+import qualified Data.Map as M
 
-kruskal :: (Ord a, Num a) => a -> [[a]] -> a
--- param: NumberOfVertex, edges
+
+makeUnionSet :: (Ord a, Num a) => a -> a-> M.Map a a
+-- Make Edge Union Set
+makeUnionSet start end
+    | start == end  = M.fromList [(start, start)]
+    | otherwise     = M.insert start start (makeUnionSet (start + 1) end)
+
+findParentFromUnionSet :: (Ord a, Num a) => M.Map a a -> a -> a
+findParentFromUnionSet unionSet v
+    | v == parent   = v
+    | otherwise     = findParentFromUnionSet unionSet parent
+    where
+        parent = (unionSet M.! v)
+
+__getStart    = head . tail
+__getEnd      = head . tail . tail
+__getWeight   = head
+
+-- Kruskal Micro Function
+__kruskal :: (Ord a, Num a, Foldable t) => t [a] -> M.Map a a -> a
+-- param: NumberOfVertex, edges, unionset
 -- return: Value of the smallest
 -- edges
 -- [[start, end, weight]]
-kruskal 1 _ = 0
-    -- if vertex size is 1 then return 0
-kruskal 2 edges = (head . tail . tail . head) edges
-    -- elif vertex size is 2 then return weight
-kruskal nv edges
-    -- otherwise
-    | nv <= 0   = -1    -- SEND ERROR
-    | otherwise = 2
+__kruskal edges unionSet = (fst . (foldl' routineKruskal elements)) edges
     where
-        -- 데이터 추출 함수
-        getWeight   = head
-        getStart    = (head . tail)
-        getEnd      = (head . tail . tail)
-        preProcessedEdges = (sort . preProcessEdge) edges
-        -- 가중치가 가장 적은 순으로 정렬
-            where
-                -- Change [start, end, weight] to [weight, start, end]
-                preProcessEdge :: (Ord a, Num a) => [[a]] -> [[a]] 
-                preProcessEdge (e:ex)
-                    | ex == []      = [(changeEdgeSet e)]
-                    | otherwise     = (changeEdgeSet e):(preProcessEdge ex)
-                    where
-                        changeEdgeSet :: (Ord a, Num a) => [a] -> [a]
-                        changeEdgeSet edge = [ ((head . tail . tail) edge), (head edge), ((head . tail) edge) ]
-                        -- 자리 체인지 => [start, end, weight] -> [weight, start, end]
+    elements = (0, unionSet)
+    routineKruskal :: (Ord a, Num a) => (a, M.Map a a) -> [a] -> (a, M.Map a a)
+    -- param: (totalValue, unionSet), one edge
+    -- return: (totalValue, unionSet)
+    -- 싸이클인지 확인하고, totalWeight를 갱신한다.
+    routineKruskal kruskalElemnts edge
+        | (findParent start) == (findParent end)    = kruskalElemnts
+        | otherwise                                 = (totalWeight + weight, M.adjust (updateValue start) end unionSet)
+        where
+            start       = __getStart    edge
+            end         = __getEnd      edge
+            weight      = __getWeight   edge
+            totalWeight = fst kruskalElemnts
+            unionSet    = snd kruskalElemnts
+            findParent  = findParentFromUnionSet unionSet
+            updateValue :: Num a => a -> a -> a
+            updateValue n e = n
+
+-- Main Kruskal Function
+kruskal :: (Ord a, Num a) => a -> [[a]] -> a
+    -- same with __kruskal
+kruskal 1 _ = 0                                     -- if vertex size is 1 then return 0
+kruskal 2 edges = (head . tail . tail . head) edges -- elif vertex size is 2 then return weight
+kruskal nv edges
+    | nv <= 0   = -1    -- SEND ERROR
+    | otherwise = __kruskal preProcessedEdges (makeUnionSet 1 nv)
+    where   
+    preProcessedEdges = (sort . (map changeEdgeSet)) edges
+        -- 가중치가 가장 적은 순으로 정렬 (Reverse를 수행한 이유는 맨 끝다리부터 계산이 시작되기 때문이다.)
+        where
+        changeEdgeSet :: (Ord a, Num a) => [a] -> [a]
+        changeEdgeSet edge = [ ((head . tail . tail) edge), (head edge), ((head . tail) edge) ]
+        -- 자리 체인지 => [start, end, weight] -> [weight, start, end]
 
 
 test :: (Ord a, Num a) => [a] -> [(a, [[a]])] -> [String]
