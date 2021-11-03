@@ -59,7 +59,6 @@ kruskal nv edges
     | otherwise = __kruskal preProcessedEdges (makeUnionSet 1 nv)
     where   
     preProcessedEdges = (sort . (map changeEdgeSet)) edges
-        -- 가중치가 가장 적은 순으로 정렬 (Reverse를 수행한 이유는 맨 끝다리부터 계산이 시작되기 때문이다.)
         where
         changeEdgeSet :: (Ord a, Num a) => [a] -> [a]
         changeEdgeSet edge = [ ((head . tail . tail) edge), (head edge), ((head . tail) edge) ]
