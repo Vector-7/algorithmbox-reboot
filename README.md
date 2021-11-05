@@ -4,7 +4,7 @@
 ## 알고리즘 개념
 ![haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
 * [Binary Search](basic/binary_search)
-* [Kruskal Algorithm](basic/graphs/kruskal.hs)
+* [Kruskal Algorithm](basic/graphs/kruskal)
 
 ## 푼 문제 리스트
 ![python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
