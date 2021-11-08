@@ -14,7 +14,7 @@ findParentFromUnionSet unionSet v
     | v == parent   = v
     | otherwise     = findParentFromUnionSet unionSet parent
     where
-        parent = (unionSet M.! v)
+    parent = (unionSet M.! v)
 
 -- Edge Member Functions
 __getStart    = head . tail
