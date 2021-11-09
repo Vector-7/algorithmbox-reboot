@@ -3,11 +3,12 @@
 
 ## 알고리즘 개념
 ![haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
+### 그래프
+* [Kruskal (with Python)](basic/graphs/kruskal)
+* [dijkstra (with Go)](basic/graphs/dijkstra)
+### 기타
 * [Binary Search](basic/binary_search)
-* [Kruskal Algorithm](basic/graphs/kruskal)
 
-## 푼 문제 리스트
+## 문제들
 ![python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 * [[bakjoon]트리의 지름 - Python](solutions/bakjoon-1967.py)
-
-## 직접만든 알고리즘
