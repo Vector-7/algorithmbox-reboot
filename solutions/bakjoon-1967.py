@@ -5,7 +5,6 @@ import heapq
 sys.setrecursionlimit(100_000)
 
 input = sys.stdin.readline
-tree = collections.defaultdict(list)
 
 N = int(input())
 tree = collections.defaultdict(list)

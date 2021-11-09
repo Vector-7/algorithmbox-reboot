@@ -86,9 +86,15 @@ test (t:ts) = (expected, acutal) : (test ts)
 {-- MAIN ALGORITHM --}
 makeGraph :: (Num a, Ord a) => [[a]] -> M.Map a [(a, a)]
 makeGraph [] = M.fromList []
-makeGraph (x:xs)
+makeGraph (x:xs) = _makeGraph p2 p1 w (_makeGraph p1 p2 w (makeGraph xs))
     where
-    g = makeGraph xs
+    p1 = x !! 0
+    p2 = x !! 1
+    w = x !! 2
+    _makeGraph :: (Num a, Ord a) => a -> a -> a -> M.Map a [(a, a)] -> M.Map a [(a, a)]
+    _makeGraph start end weight g
+        | M.member start g      = M.insert start [(end, weight)] g
+        | otherwise             = M.adjust ((end, weight):) end g
 
 dijkstra :: (Num a, Ord a) => a -> a -> [[a]] -> M.Map a a
 -- param: vertexNum, edgeNum, edges 
@@ -134,6 +140,7 @@ main = do
     raw <- readFile "case.txt"
     let testCases = parse raw
     let edge0 = getEdges (testCases !! 0)
-    -- putStrLn (show (makeGraph edge0))
-    putStrLn (show (getEdges (testCases !! 0)))
+    putStrLn (show edge0)
+    let g = makeGraph edge0
+    putStrLn (show g)
     -- putStrLn (show (test (parse raw)))
