@@ -28,17 +28,15 @@ def __search(k: int):
     if k not in tree:
         # 지름 값 없음
         vals[k] = (vals[k][0], 0)
-        # 간선 값 리턴
-        return vals[k][0]
     else:
         # 아닌 경우
         candidate_edges = []
 
         for child_k in tree[k]:
             # child edge 순회
-            child_e = __search(child_k)
+            __search(child_k)
             # 후보 Edge값 push
-            heapq.heappush(candidate_edges, -child_e)
+            heapq.heappush(candidate_edges, -vals[child_k][0])
 
         # child edge가 하나인 경우
         # 해당 key에서 지름 못구함 따라서 지름은 추가 하지 않고 누적 edge 값만
