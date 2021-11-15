@@ -1,0 +1,1 @@
+data LinkedList = Node Node String Node
