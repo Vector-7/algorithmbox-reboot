@@ -1,7 +1,7 @@
 import Data.Maybe
 
 queuePush :: Num a => [a] -> a -> [a]
-queuePush queue element = element:queue
+queuePush queue element = queue ++ [element]
 
 queuePop :: Num a => [a] -> ([a], Maybe a)
 queuePop [] = ([], Nothing)
