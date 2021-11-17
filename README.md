@@ -5,6 +5,7 @@
 * [배열 스택](basic/data_structure/list_stack.hs)
 * [배열 큐](basic/data_structure/list_queue.hs)
 * [연결 리스트](basic/data_structure/linked_list.hs)
+* [원형 덱](basic/data_structure/circular_deque.hs)
 * [연결 스택(작성중)](basic/data_structure/linked_stack.hs)
 * [연결 큐(작성중)](basic/data_structure/linked_queue.hs)
 
