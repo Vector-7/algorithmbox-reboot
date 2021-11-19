@@ -21,3 +21,4 @@
 ![python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 * [[bakjoon]트리의 지름(1967) - Python](solutions/bakjoon-1967.py)
 * [[bakjoon]트리의 지름 (1167) - Python](solutions/bakjoon-1167.py)
+* [[bakjoon]웜홀 - Python](solutions/bakjoon-1865.py)
