@@ -8,7 +8,6 @@ def process(V, E, edges, weights):
 
     def bfs():
         for i in range(V):
-            print(weights)
             for j in range(E):
                 u, v, w = edges[j]
                 if weights[v] > weights[u] + w:
@@ -18,7 +17,6 @@ def process(V, E, edges, weights):
         return False
     
     is_cycle = bfs()
-    print(weights)
     if is_cycle:
         return True
     else:
@@ -29,7 +27,6 @@ for _ in range(T):
 
     EDGES = []
     R = [0] * (V + 1)
-    print("")
     for _ in range(E):
         # 일반 노선 갖고오기
         u, v, w = map(int, input()[:-1].split())
