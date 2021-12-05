@@ -24,3 +24,4 @@
 * [[bakjoon]웜홀 - Python](solutions/bakjoon-1865.py)
 * [[bakjoon]트리의 순회 - Python](solutions/bakjoon-2263.py)
 * [[bakjoon]볼록 껍질 - Python](solutions/bakjoon-1708.py)
+* [[bakjoon]감옥 건설 - Python](solutions/bakjoon-2254.py)
