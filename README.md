@@ -25,3 +25,4 @@
 * [[bakjoon]트리의 순회 - Python](solutions/bakjoon-2263.py)
 * [[bakjoon]볼록 껍질 - Python](solutions/bakjoon-1708.py)
 * [[bakjoon]감옥 건설 - Python](solutions/bakjoon-2254.py)
+* [[bakjoon]문자열 폭발 - Python](solutions/bakjoon-9935.py)
