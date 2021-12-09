@@ -27,3 +27,4 @@
 * [[bakjoon]감옥 건설 - Python](solutions/bakjoon-2254.py)
 * [[bakjoon]문자열 폭발 - Python](solutions/bakjoon-9935.py)
 * [[bakjoon]사과나무 - Python](solutions/bakjoon-2987.py)
+* [[bakjoon]잠수함 식별 - Python](solutions/bakjoon-2671.py)
