@@ -18,7 +18,6 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
-![python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 * [[bakjoon]트리의 지름(1967) - Python](solutions/bakjoon-1967.py)
 * [[bakjoon]트리의 지름 (1167) - Python](solutions/bakjoon-1167.py)
 * [[bakjoon]웜홀 - Python](solutions/bakjoon-1865.py)
@@ -28,3 +27,4 @@
 * [[bakjoon]문자열 폭발 - Python](solutions/bakjoon-9935.py)
 * [[bakjoon]사과나무 - Python](solutions/bakjoon-2987.py)
 * [[bakjoon]잠수함 식별 - Python](solutions/bakjoon-2671.py)
+* [[bakjoon]욕심쟁이 판다 - C11](solutions/bakjoon-1937.c)
