@@ -18,6 +18,8 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
+* [[codeforces]Paint the Array - Python](solutions/codeforces-1618c.py)
+* [[baekjoon]욕심쟁이 판다 - C11](solutions/baekjoon-1937.c)
 * [[baekjoon]개미굴 - Python](solutions/baekjoon-14725.py)
 * [[baekjoon]트리의 지름(1967) - Python](solutions/baekjoon-1967.py)
 * [[baekjoon]트리의 지름 (1167) - Python](solutions/baekjoon-1167.py)
@@ -28,4 +30,3 @@
 * [[baekjoon]문자열 폭발 - Python](solutions/baekjoon-9935.py)
 * [[baekjoon]사과나무 - Python](solutions/baekjoon-2987.py)
 * [[baekjoon]잠수함 식별 - Python](solutions/baekjoon-2671.py)
-* [[baekjoon]욕심쟁이 판다 - C11](solutions/baekjoon-1937.c)
