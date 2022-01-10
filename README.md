@@ -18,6 +18,7 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
+* [[baekjoon]연속합 - Python](solutions/baekjoon-1912.py)
 * [[codeforces]Paint the Array - Python](solutions/codeforces-1618c.py)
 * [[baekjoon]욕심쟁이 판다 - C11](solutions/baekjoon-1937.c)
 * [[baekjoon]개미굴 - Python](solutions/baekjoon-14725.py)
