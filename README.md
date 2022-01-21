@@ -18,6 +18,7 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
+_**Note**_ 백준문제는 플레4까지만 공개
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
 * [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [[baekjoon]좀비 - Python](solutions/baekjoon-11952.py)
