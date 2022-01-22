@@ -18,7 +18,7 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
-* [[baekjoon]너 봄에는 캡사이신이 맛있단다](solutions/baekjoon-15824.py)
+* [[baekjoon]너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
 * [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [[baekjoon]좀비 - Python](solutions/baekjoon-11952.py)
