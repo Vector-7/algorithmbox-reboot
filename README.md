@@ -18,6 +18,10 @@
 * [Binary Search](basic/binary_search)
 
 ## 문제들
+![python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![](https://img.shields.io/badge/-Pascal-orange?style=flat-square)
+
 * [[baekjoon]너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
 * [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
