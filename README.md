@@ -23,7 +23,7 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-* [[baekjoon]친구 네트워크](solutions/baekjoon-4195.pl)
+* [[baekjoon]친구 네트워크 - Perl](solutions/baekjoon-4195.pl)
 * [[baekjoon]너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
 * [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
