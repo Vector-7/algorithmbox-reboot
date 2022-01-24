@@ -19,8 +19,9 @@
 
 ## 문제들
 ![python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=black)
+![perl](https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![](https://img.shields.io/badge/-Pascal-orange?style=flat-square)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 * [[baekjoon]너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
