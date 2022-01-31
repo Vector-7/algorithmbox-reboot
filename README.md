@@ -23,6 +23,7 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
+* [[baekjoon]반도체 설계 - C++17](solutions/baekjoon-2352.cpp)
 * [[baekjoon]암호 - C++17](solutions/baekjoon-1394.cpp)
 * [[baekjoon]사탕상자 - C++17](solutions/baekjoon-2243.cpp)
 * [[baekjoon]친구 네트워크 - Perl](solutions/baekjoon-4195.pl)
