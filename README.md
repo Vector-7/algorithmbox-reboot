@@ -23,6 +23,8 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
+* [[baekjoon]피리 부는 사나이 - C++17](solutions/baekjoon-16724.cpp)
+* [[baekjoon]가장 긴 증가하는 부분 수열 5 - C++17](solutions/baekjoon-14003.cpp)
 * [[baekjoon]1의 개수 세기 - C++17](solutions/baekjoon-9527.cpp)
 * [[baekjoon]반도체 설계 - C++17](solutions/baekjoon-2352.cpp)
 * [[baekjoon]암호 - C++17](solutions/baekjoon-1394.cpp)
