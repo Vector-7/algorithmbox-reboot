@@ -23,6 +23,7 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
+* [[project euler]17번 - C](solutions/euler-17.c)
 * [[leetcode]Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
 * [[baekjoon]나무 심기 - C++17](solutions/baekjoon-1280.cpp)
 * [[baekjoon]오아시스 재결합 - C++17](solutions/baekjoon-3015.cpp)
