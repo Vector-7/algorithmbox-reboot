@@ -23,8 +23,8 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-* [[project euler]17번 - C](solutions/euler-17.c)
-* [[leetcode]Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
+
+### 백준
 * [[baekjoon]나무 심기 - C++17](solutions/baekjoon-1280.cpp)
 * [[baekjoon]오아시스 재결합 - C++17](solutions/baekjoon-3015.cpp)
 * [[baekjoon]음주 코딩 - C++17](solutions/baekjoon-5676.cpp)
@@ -37,11 +37,9 @@
 * [[baekjoon]친구 네트워크 - Perl](solutions/baekjoon-4195.pl)
 * [[baekjoon]너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
 * [[baekjoon]앱 - Pascal](solutions/baekjoon-7579.pas)
-* [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [[baekjoon]좀비 - Python](solutions/baekjoon-11952.py)
 * [[baekjoon]패턴 - Python](solutions/baekjoon-3164.py)
 * [[baekjoon]연속합 - Python](solutions/baekjoon-1912.py)
-* [[codeforces]Paint the Array - Python](solutions/codeforces-1618c.py)
 * [[baekjoon]욕심쟁이 판다 - C11](solutions/baekjoon-1937.c)
 * [[baekjoon]개미굴 - Python](solutions/baekjoon-14725.py)
 * [[baekjoon]트리의 지름(1967) - Python](solutions/baekjoon-1967.py)
@@ -53,3 +51,11 @@
 * [[baekjoon]문자열 폭발 - Python](solutions/baekjoon-9935.py)
 * [[baekjoon]사과나무 - Python](solutions/baekjoon-2987.py)
 * [[baekjoon]잠수함 식별 - Python](solutions/baekjoon-2671.py)
+### 코드포스
+* [[codeforces]Minor Reduction - Python](solutions/codeforces-1626b.py)
+* [[codeforces]Paint the Array - Python](solutions/codeforces-1618c.py)
+### 리트코드
+* [[leetcode]Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
+### 프로젝트 오일러
+* [[project euler]17번 - C](solutions/euler-17.c)
+
