@@ -49,7 +49,7 @@ int main()
     t_start = system_clock::now();
 
     stack.push(make_tuple(start.first, start.second, 0));
-    int ans = 0;
+    long long ans = 0;
 
     while(!stack.empty()) {
         int i, j, cnt;
