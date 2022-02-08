@@ -81,7 +81,7 @@
     <li>깊이 우선 탐색(Easy)</li>
     <li>인접 그래프(Easy)</li>
     <li>트리(Hard)</li>
-    <li>재귀(Hard)</li>
+    <li>정렬(Hard)</li>
     <li>조합론(Hard)</li>
 </ul>
 </details>

@@ -8,9 +8,6 @@ using namespace std;
 using namespace chrono;
 typedef long long ll;
 
-// 시간 타이머
-system_clock::time_point t_start, t_end;
-
 int main()
 {
     ios_base::sync_with_stdio(false);
@@ -27,10 +24,6 @@ int main()
     cin >> N;
     R++; C++;
 
-    
-    // timer start
-    t_start = system_clock::now();
-
     // 시작, 끝점
     pair<int, int> start = make_pair(R-1, 0);
     pair<int, int> end = make_pair(0, C-1);
@@ -44,9 +37,6 @@ int main()
         cin >> i1 >> j1 >> i2 >> j2;
         graph[i1][j1] = graph[i2][j2] = 1;
     }
-
-    // time start
-    t_start = system_clock::now();
 
     stack.push(make_tuple(start.first, start.second, 0));
     // i, j, 물웅덩이 건넌 횟수
@@ -79,12 +69,5 @@ int main()
     }
 
     cout << ans << '\n';
-    
-    // end timer
-    t_end = system_clock::now();
-    auto __time = duration_cast<milliseconds>(t_end - t_start);
-    cout << "time: " << __time.count() << "ms" << "\n";
-
-
     return 0;
 }
