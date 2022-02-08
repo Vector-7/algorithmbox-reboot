@@ -52,7 +52,7 @@
 * [사과나무 - Python](solutions/baekjoon-2987.py)
 * [잠수함 식별 - Python](solutions/baekjoon-2671.py)
 ### 코드포스
-* [Special Numbers](solutions/codeforces-1594b.py)
+* [Special Numbers - Python](solutions/codeforces-1594b.py)
 * [Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [Paint the Array - Python](solutions/codeforces-1618c.py)
 ### 리트코드
