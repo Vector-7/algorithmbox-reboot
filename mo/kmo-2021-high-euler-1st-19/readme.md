@@ -75,11 +75,11 @@
 ```
 집까지 가는 경로에 물웅덩이가 최소 2개 이상 있으므로 어느 경로로 가든 간에 부모님에게 혼납니다.
 
-## 태그
+## 태그 및 후기
 <details>
 <summary>보기</summary>
 <ul>
-    <li>깊이 우선 탐색</li>
+    <li>깊이 우선 탐색(Easy 한정)</li>
     <li>인접 그래프</li>
 </ul>
 </details>
@@ -88,7 +88,7 @@
 <summary>후기</summary>
 <ul>
     <li>[Easy] DFS또는 BFS의 기본만 알수 있어도 충분히 풀 수 있는 문제</li>
-    <li>[Hell] 아직 못풀음 ㅠㅠ</li>
+    <li>[Hard] 아직 못풀음 ㅠㅠ</li>
 </ul>
 
 </details>
