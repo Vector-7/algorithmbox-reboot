@@ -59,11 +59,9 @@ int main()
                 if(graph[ni][nj] == 1 && graph[i][j] == 1) {
                     if(cnt == 1) continue;
                     else stack.push(make_tuple(ni, nj, 1));
-                } else stack.push(make_tuple(ni, nj, cnt));
-                
+                } else stack.push(make_tuple(ni, nj, cnt));   
             }
         }
-
     }
     
     for(int i = 0; i < R; i++) {
