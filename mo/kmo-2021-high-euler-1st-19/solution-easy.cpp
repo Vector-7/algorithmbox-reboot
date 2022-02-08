@@ -49,13 +49,14 @@ int main()
     t_start = system_clock::now();
 
     stack.push(make_tuple(start.first, start.second, 0));
+    // i, j, 물웅덩이 건넌 횟수
     long long ans = 0;
 
     while(!stack.empty()) {
         int i, j, cnt;
         i = get<0>(stack.top()); j = get<1>(stack.top()); cnt = get<2>(stack.top());
         stack.pop();
-
+        
 
         // 끝점에 도달했을 경우
         if(i == end.first && j == end.second) {
