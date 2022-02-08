@@ -23,7 +23,21 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
+### 코드포스
+* [Special Numbers - Python](solutions/codeforces-1594b.py)
+* [Minor Reduction - Python](solutions/codeforces-1626b.py)
+* [Paint the Array - Python](solutions/codeforces-1618c.py)
+### 리트코드
+* [Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
+### 프로젝트 오일러
+* [17번 - C](solutions/euler-17.c)
+### 수학올림피아드
+**Note**: 각 링크마다 달려있는 readme.md에 설명되어 있는 문제는 기존 문제를 PS 스타일에 맞게 변형하였습니다. 원본 문제는 아래 링크를 참고하세요. **모든 문제의 저작권은 KMO(한국수학올림피아드) 에 있습니다.**
 
+[한국수학올림피아드 기출문제](https://www.kmo.or.kr/kmo/sub07.html)
+
+기존 솔루션 코드에서 반례가 발생할 경우, 혹은 문제 자체에 이상이 있는 경우, issue또는 PR로 저격해 주세요. PS를 잘하는 편이 아니라서 실수가 많을 수도 있습니다.
+* [물웅덩이 (2021 한국수학올림피아드 고등부 오일러부 1차 19번) - C++](mo/kmo-2021-high-euler-1st-19/)
 ### 백준
 * [나무 심기 - C++17](solutions/baekjoon-1280.cpp)
 * [오아시스 재결합 - C++17](solutions/baekjoon-3015.cpp)
@@ -51,12 +65,3 @@
 * [문자열 폭발 - Python](solutions/baekjoon-9935.py)
 * [사과나무 - Python](solutions/baekjoon-2987.py)
 * [잠수함 식별 - Python](solutions/baekjoon-2671.py)
-### 코드포스
-* [Special Numbers - Python](solutions/codeforces-1594b.py)
-* [Minor Reduction - Python](solutions/codeforces-1626b.py)
-* [Paint the Array - Python](solutions/codeforces-1618c.py)
-### 리트코드
-* [[leetcode]Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
-### 프로젝트 오일러
-* [[project euler]17번 - C](solutions/euler-17.c)
-
