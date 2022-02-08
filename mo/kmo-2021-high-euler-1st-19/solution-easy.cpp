@@ -21,7 +21,8 @@ int main()
     int R, C, N;
     cin >> R >> C;
     cin >> N;
-
+    R++; C++;
+    
     // 시작, 끝점
     pair<int, int> start = make_pair(R-1, 0);
     pair<int, int> end = make_pair(0, C-1);
@@ -57,18 +58,11 @@ int main()
                 if(!(0 <= ni && ni < R && 0 <= nj && nj < C)) continue;
 
                 if(graph[ni][nj] == 1 && graph[i][j] == 1) {
-                    if(cnt == 1) continue;
+                    if(cnt == 1 && !(ni == end.first && nj == end.second)) continue;
                     else stack.push(make_tuple(ni, nj, 1));
                 } else stack.push(make_tuple(ni, nj, cnt));   
             }
         }
-    }
-    
-    for(int i = 0; i < R; i++) {
-        for(int j = 0; j < C; j++) {
-            cout << graph[i][j] << ' ';
-        }
-        cout << '\n';
     }
 
     cout << ans << '\n';
