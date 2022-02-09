@@ -131,9 +131,6 @@ for i in range(N):
 # sorting
 pools = sorted(pools, key=lambda p: (p.s.j, -p.s.i))
 
-for i in range(0, len(pools)):
-    print(f"{i}:{pools[i]}")
-
 # make pool graph
 pool_parent_graph, pool_child_graph, child_nums, parent_nums = make_pool_tree(pools, N)
 
@@ -144,6 +141,13 @@ home_case, back_case = \
     calculate(pools, pool_parent_graph, \
     pool_child_graph, parent_nums, child_nums, \
     facts, N, R, C)
+
+for i in range(1, N+1):
+    print(pools[i])
+
+
+print(home_case)
+print(back_case)
 
 ans = 0
 for i in range(1, N+1):

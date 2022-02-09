@@ -61,7 +61,7 @@ int main()
                 if(!(0 <= ni && ni < R && 0 <= nj && nj < C)) continue;
 
                 if(graph[ni][nj] == 1 && graph[i][j] == 1) {
-                    if(cnt == 1 && !(ni == end.first && nj == end.second)) continue;
+                    if(cnt == 1) continue;
                     else stack.push(make_tuple(ni, nj, 1));
                 } else stack.push(make_tuple(ni, nj, cnt));   
             }
