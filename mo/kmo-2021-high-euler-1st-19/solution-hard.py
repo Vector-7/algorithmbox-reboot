@@ -21,7 +21,7 @@ class Vertex:
 
 def is_included(parent, child):
     # child가 parent 범위 안에 있는 지 조사
-    if (parent.e.j <= child.s.j) and (parent.e.i >= child.e.i):
+    if (parent.e.j <= child.s.j) and (parent.e.i >= child.s.i):
         return True
     else:
         return False
@@ -142,14 +142,7 @@ home_case, back_case = \
     pool_child_graph, parent_nums, child_nums, \
     facts, N, R, C)
 
-for i in range(1, N+1):
-    print(pools[i])
-
-
-print(home_case)
-print(back_case)
-
 ans = 0
 for i in range(1, N+1):
     ans += home_case[i] * back_case[i]
-print(ans)
+print(ans % MODULA)
