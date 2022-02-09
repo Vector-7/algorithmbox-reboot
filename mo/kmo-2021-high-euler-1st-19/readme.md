@@ -76,12 +76,21 @@
 
 ## 태그
 <details>
-<summary>보기</summary>
+<summary>Easy</summary>
 <ul>
-    <li>깊이 우선 탐색(Easy)</li>
-    <li>인접 그래프(Easy)</li>
-    <li>트리(Hard)</li>
-    <li>정렬(Hard)</li>
-    <li>조합론(Hard)</li>
+    <li>그래프 이론</li>
+    <li>깊이 우선 탐색</li>
+    <li>인접 그래프</li>
+</ul>
+</details>
+
+<details>
+<summary>Hard</summary>
+<ul>
+    <li>그래프 이론</li>
+    <li>정렬</li>
+    <li>위상 정렬</li>
+    <li>조합론</li>
+    <li>다이나믹 프로그래밍</li>
 </ul>
 </details>
