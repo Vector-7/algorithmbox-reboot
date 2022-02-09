@@ -1,6 +1,6 @@
 import sys
 import collections
-from functools import cmp_to_key
+from performance_checker import PerformanceChecker
 sys.setrecursionlimit(10 ** 7)
 
 input = sys.stdin.readline
@@ -128,6 +128,9 @@ dp = [-1] * (N+1)
 for i in range(N):
     pools.append(Vertex(*list(map(int, input()[:-1].split()))))
 
+p_checker = PerformanceChecker()
+p_checker.start()
+
 # sorting
 pools = sorted(pools, key=lambda p: (p.s.j, -p.s.i))
 
@@ -144,5 +147,8 @@ home_case, back_case = \
 
 ans = 0
 for i in range(1, N+1):
-    ans += home_case[i] * back_case[i]
+    ans += (home_case[i] * back_case[i])
 print(ans % MODULA)
+
+p_checker.stop()
+p_checker.print()
