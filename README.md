@@ -24,6 +24,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 ### 코드포스
+* [Fun with Even Subarrays - Python](solutions/codeforces-1631b.py)
 * [Special Numbers - Python](solutions/codeforces-1594b.py)
 * [Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [Paint the Array - Python](solutions/codeforces-1618c.py)
