@@ -31,6 +31,7 @@
 ### 리트코드
 * [Container With Most Water - Python](solutions/leetcode-17.py)
 * [Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
+* [Next Permutation - Python](solutions/leetcode-31.py)
 ### 프로젝트 오일러
 * [31번 - Python](solutions/euler-31.py)
 * [17번 - C](solutions/euler-17.c)
