@@ -29,6 +29,7 @@
 * [Minor Reduction - Python](solutions/codeforces-1626b.py)
 * [Paint the Array - Python](solutions/codeforces-1618c.py)
 ### 리트코드
+* [Search in Rotated Sorted Array - Python](solutions/leetcode-33.py)
 * [Container With Most Water - Python](solutions/leetcode-17.py)
 * [Remove Nth Node From End of List - Python](solutions/leetcode-19.py)
 * [Next Permutation - Python](solutions/leetcode-31.py)
