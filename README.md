@@ -38,6 +38,7 @@
 * [17번 - C](solutions/euler-17.c)
 
 ### 백준
+* [공항 - Pascal](solutions/baekjoon-10775.pas)
 * [로봇 청소기 - Python](solutions/baekjoon-4991.py)
 * [회의실 배정 - Python](solutions/baekjoon-11000.py)
 * [이진 탐색 트리 복원하기 - C++17](solutions/baekjoon-19565.cpp)
