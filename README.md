@@ -38,34 +38,21 @@
 * [17번 - C](solutions/euler-17.c)
 
 ### 백준
-* [플로이드2 - Pascal](solutions/baekjoon-11780.pas)
-* [공항 - Pascal](solutions/baekjoon-10775.pas)
-* [로봇 청소기 - Python](solutions/baekjoon-4991.py)
-* [회의실 배정 - Python](solutions/baekjoon-11000.py)
-* [이진 탐색 트리 복원하기 - C++17](solutions/baekjoon-19565.cpp)
-* [나무 심기 - C++17](solutions/baekjoon-1280.cpp)
-* [오아시스 재결합 - C++17](solutions/baekjoon-3015.cpp)
-* [음주 코딩 - C++17](solutions/baekjoon-5676.cpp)
-* [피리 부는 사나이 - C++17](solutions/baekjoon-16724.cpp)
-* [가장 긴 증가하는 부분 수열 5 - C++17](solutions/baekjoon-14003.cpp)
-* [1의 개수 세기 - C++17](solutions/baekjoon-9527.cpp)
-* [반도체 설계 - C++17](solutions/baekjoon-2352.cpp)
-* [암호 - C++17](solutions/baekjoon-1394.cpp)
-* [사탕상자 - C++17](solutions/baekjoon-2243.cpp)
-* [친구 네트워크 - Perl](solutions/baekjoon-4195.pl)
-* [너 봄에는 캡사이신이 맛있단다 - Python](solutions/baekjoon-15824.py)
-* [앱 - Pascal](solutions/baekjoon-7579.pas)
-* [좀비 - Python](solutions/baekjoon-11952.py)
-* [패턴 - Python](solutions/baekjoon-3164.py)
-* [연속합 - Python](solutions/baekjoon-1912.py)
-* [욕심쟁이 판다 - C11](solutions/baekjoon-1937.c)
-* [개미굴 - Python](solutions/baekjoon-14725.py)
-* [트리의 지름(1967) - Python](solutions/baekjoon-1967.py)
-* [트리의 지름 (1167) - Python](solutions/baekjoon-1167.py)
-* [웜홀 - Python](solutions/baekjoon-1865.py)
-* [트리의 순회 - Python](solutions/baekjoon-2263.py)
-* [볼록 껍질 - Python](solutions/baekjoon-1708.py)
-* [감옥 건설 - Python](solutions/baekjoon-2254.py)
-* [문자열 폭발 - Python](solutions/baekjoon-9935.py)
-* [사과나무 - Python](solutions/baekjoon-2987.py)
-* [잠수함 식별 - Python](solutions/baekjoon-2671.py)
+
+|고급 알고리즘|중급 이하 알고리즘|짱돌 굴려야 푸는 문제|분노를 유발하는 구현|
+|---|---|---|---|
+|[나무 심기(세그먼트 트리)](solutions/baekjoon-1280.cpp)|[플로이드2](solutions/baekjoon-11780.pas)|[공항](solutions/baekjoon-10775.pas)|[로봇 청소기](solutions/baekjoon-4991.py)|
+|[음주 코딩(세그먼트 트리)](solutions/baekjoon-5676.cpp)|[피리 부는 사나이](solutions/baekjoon-16724.cpp)|[회의실 배정](solutions/baekjoon-11000.py)||
+|[반도체 설계(LIS)](solutions/baekjoon-2352.cpp)|[암호](solutions/baekjoon-1394.cpp)|[오아시스 재결합](solutions/baekjoon-3015.cpp)||
+|[사탕상자(세그먼트 트리)](solutions/baekjoon-2243.cpp)|[친구 네트워크](solutions/baekjoon-4195.pl)|[너 봄에는 캡사이신이 맛있단다](solutions/baekjoon-15824.py)||
+|[가장 긴 증가하는 부분 수열(LIS)](solutions/baekjoon-14003.cpp)|[앱](solutions/baekjoon-7579.pas)|[패턴](solutions/baekjoon-3164.py)||
+|[볼록 껍질](solutions/baekjoon-1708.py)|[좀비](solutions/baekjoon-11952.py)|[1의 개수 세기](solutions/baekjoon-9527.cpp)||
+|[감옥 건설(볼록 껍질)](solutions/baekjoon-2254.py)|[연속합](solutions/baekjoon-1912.py)|[이진 탐색 트리 복원하기](solutions/baekjoon-19565.cpp)||
+||[욕심쟁이 판다](solutions/baekjoon-1937.c)|[트리의 순회](solutions/baekjoon-2263.py)|
+||[개미굴](solutions/baekjoon-14725.py)|[문자열 폭발](solutions/baekjoon-9935.py)|
+||[트리의 지름(1967)](solutions/baekjoon-1967.py)|[사과나무](solutions/baekjoon-2987.py)||
+||[트리의 지름 (1167)](solutions/baekjoon-1167.py)||
+||[웜홀](solutions/baekjoon-1865.py)||
+||[잠수함 식별](solutions/baekjoon-2671.py)||
+||||
+||||
