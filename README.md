@@ -45,7 +45,7 @@
 |[음주 코딩(세그먼트 트리)](solutions/baekjoon-5676.cpp)|[피리 부는 사나이](solutions/baekjoon-16724.cpp)|[회의실 배정](solutions/baekjoon-11000.py)||
 |[반도체 설계(LIS)](solutions/baekjoon-2352.cpp)|[암호](solutions/baekjoon-1394.cpp)|[오아시스 재결합](solutions/baekjoon-3015.cpp)||
 |[사탕상자(세그먼트 트리)](solutions/baekjoon-2243.cpp)|[친구 네트워크](solutions/baekjoon-4195.pl)|[너 봄에는 캡사이신이 맛있단다](solutions/baekjoon-15824.py)||
-|[가장 긴 증가하는 부분 수열(LIS)](solutions/baekjoon-14003.cpp)|[앱](solutions/baekjoon-7579.pas)|[패턴](solutions/baekjoon-3164.py)||
+|[가장 긴 증가하는 부분 수열 5(LIS)](solutions/baekjoon-14003.cpp)|[앱](solutions/baekjoon-7579.pas)|[패턴](solutions/baekjoon-3164.py)||
 |[볼록 껍질](solutions/baekjoon-1708.py)|[좀비](solutions/baekjoon-11952.py)|[1의 개수 세기](solutions/baekjoon-9527.cpp)||
 |[감옥 건설(볼록 껍질)](solutions/baekjoon-2254.py)|[연속합](solutions/baekjoon-1912.py)|[이진 탐색 트리 복원하기](solutions/baekjoon-19565.cpp)||
 ||[욕심쟁이 판다](solutions/baekjoon-1937.c)|[트리의 순회](solutions/baekjoon-2263.py)|
