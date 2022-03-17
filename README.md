@@ -51,7 +51,7 @@
 ||[욕심쟁이 판다](solutions/baekjoon-1937.c)|[트리의 순회](solutions/baekjoon-2263.py)|
 ||[개미굴](solutions/baekjoon-14725.py)|[문자열 폭발](solutions/baekjoon-9935.py)|
 ||[트리의 지름(1967)](solutions/baekjoon-1967.py)|[사과나무](solutions/baekjoon-2987.py)||
-||[트리의 지름 (1167)](solutions/baekjoon-1167.py)|[카드2(큐/덱 안씀)](baekjoon-2164.pas)|
+||[트리의 지름 (1167)](solutions/baekjoon-1167.py)|[카드2(큐/덱 안씀)](solutions/baekjoon-2164.pas)|
 ||[웜홀](solutions/baekjoon-1865.py)||
 ||[잠수함 식별](solutions/baekjoon-2671.py)||
 ||||
