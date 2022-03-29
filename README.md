@@ -37,6 +37,7 @@
 * [31번 - Python](solutions/euler-31.py)
 * [17번 - C](solutions/euler-17.c)
 
+
 ### 백준
 
 |고급 알고리즘|중급 이하 알고리즘|짱돌 굴려야 푸는 문제|분노를 유발하는 구현|
@@ -54,5 +55,5 @@
 ||[트리의 지름 (1167)](solutions/baekjoon-1167.py)|[카드2(큐/덱 안씀)](solutions/baekjoon-2164.pas)|
 ||[웜홀](solutions/baekjoon-1865.py)||
 ||[잠수함 식별](solutions/baekjoon-2671.py)||
-||||
+||[부분배열 고르기](solutions/baekjoon-2104.py)||
 ||||
