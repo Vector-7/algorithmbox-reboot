@@ -53,7 +53,7 @@
 ||[개미굴](solutions/baekjoon-14725.py)|[문자열 폭발](solutions/baekjoon-9935.py)|
 ||[트리의 지름(1967)](solutions/baekjoon-1967.py)|[사과나무](solutions/baekjoon-2987.py)||
 ||[트리의 지름 (1167)](solutions/baekjoon-1167.py)|[카드2(큐/덱 안씀)](solutions/baekjoon-2164.pas)|
-||[웜홀](solutions/baekjoon-1865.py)||
+||[웜홀](solutions/baekjoon-1865.py)|[완전 이진 트리](solutions/baekjoon-3038.cpp)|
 ||[잠수함 식별](solutions/baekjoon-2671.py)||
 ||[부분배열 고르기](solutions/baekjoon-2104.py)||
 ||||
