@@ -57,3 +57,4 @@
 ||[잠수함 식별](solutions/baekjoon-2671.py)||
 ||[부분배열 고르기](solutions/baekjoon-2104.py)||
 ||[치즈](solutions/baekjoon-2638.cpp)||
+||[두 배열의 합](solutions/baekjoon-2143.c)|||
